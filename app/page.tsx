@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 export default function Home() {
   const API_URL =
-    "https://script.google.com/macros/s/AKfycbz8uCTUbGZZZmEXwaJW2PkWJOuO-xk2_XTQ3P089a1xJ9bArdy7Fk66nT9h2iRVmHy_Gw/exec";
+    "https://script.google.com/macros/s/AKfycbx9sqRyT6_N3wSOJohW0KhqSkNlaYcuSodd3cGLNn7tPtFOh3Mh8_uEAK7ZG7bQs78VlQ/exec";
 
   const [categoria, setCategoria] = useState("");
   const [tarea, setTarea] = useState("");
